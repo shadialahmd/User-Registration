@@ -38,7 +38,7 @@ class Operations{
     }
 
     public function Login($username,$password){
-        $p=md5($passwor);
+        $p=md5($password);
 
          $sql="SELECT * FROM users WHERE username='$username' and password='$p'";
         
