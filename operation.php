@@ -17,7 +17,7 @@ class Operations{
          $sql0="SELECT * From users where username='$username' and email='$email'";
         $result0=mysqli_query($this->conn,$sql0);
         if(mysqli_num_rows($result0)>0){
-            
+             
             echo 'already available';
             
             $this->Log($username." try to register");

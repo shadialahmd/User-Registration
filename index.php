@@ -69,31 +69,3 @@
         }
 
         
-
-
-
-
-
-
-
-
-//       session_start();
-//       include 'connection.php';
-// if(isset($_POST['submit'])){
-//   $user = $_POST['user'];
-//   $pass = $_POST['pass'];
-//   $query=mysqli_query($db,"SELECT * FROM users WHERE username = '$user' AND password = '$pass'");
-//   $num_rows=mysqli_num_rows($query);
-//   $row=mysqli_fetch_array($query);
-//   $_SESSION["id"]=$row['user_id'];
-// if ($num_rows>0)
-// {
-    ?>
-    <!-- <script>
-      alert('Successfully Log In');
-      document.location='profile.php'
-    </script> -->
-    <?php
-// }
-// }
-      ?>
