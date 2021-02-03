@@ -38,9 +38,9 @@ class Operations{
     }
 
     public function Login($username,$password){
-        $p=md5($password);
+        $p=md5($passwor);
 
-        echo $sql="SELECT * FROM users WHERE username='$username' and password='$p'";
+         $sql="SELECT * FROM users WHERE username='$username' and password='$p'";
         
         $result=mysqli_query($this->conn,$sql);
         $data=mysqli_fetch_assoc($result);
